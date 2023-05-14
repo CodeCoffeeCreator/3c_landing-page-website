@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+@import 'custom-animate.css';
 @import 'header.css';
 
+@import 'footer.css';
+@import 'media.css';
+
 :root {
-  --primary-color: #6efe30;
+  --primary-color: #5bd426;
   --secondary-color: #ff2525;
   --white-color: #ffffff;
   --light-color: #f4f4f4;

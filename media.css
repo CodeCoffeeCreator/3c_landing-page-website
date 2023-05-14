@@ -1,0 +1,31 @@
+@media screen and (min-width: 768px) {
+  .mobile-only {
+    display: none;
+  }
+
+  header :where(.left, ul) {
+    flex-direction: row;
+  }
+
+  header nav .logo a {
+    margin-right: 2em;
+  }
+
+  header nav .menu {
+    position: relative;
+    padding: 0;
+    max-width: max-content;
+    background-color: transparent;
+    visibility: inherit;
+    transform: none;
+  }
+
+  header nav .menu ul li a {
+    font-size: inherit;
+    color: var(--white-color);
+  }
+
+  header nav .menu ul li a:hover {
+    color: var(--primary-color);
+  }
+}
