@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 @import 'header.css';
 @import 'hero.css';
+@import 'categories.css';
+@import 'tabbed.css';
 
 @import 'footer.css';
 @import 'custom-animate.css';
@@ -120,6 +122,10 @@ h4 {
 
 .bg-dark {
   background-image: url(img/bg-dark.svg);
+}
+
+.has-bg {
+  margin-top: 10em;
 }
 
 .head-brief {

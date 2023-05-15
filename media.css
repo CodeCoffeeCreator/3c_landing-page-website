@@ -28,6 +28,19 @@
   header nav .menu ul li a:hover {
     color: var(--primary-color);
   }
+
+  .masterpiece .item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .masterpiece .item > div {
+    flex: 1 0 50%;
+  }
+
+  .masterpiece .item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
 }
 
 @media screen and (min-width: 992px) {
