@@ -29,3 +29,18 @@
     color: var(--primary-color);
   }
 }
+
+@media screen and (min-width: 992px) {
+  .slider .thumb-nav {
+    position: absolute;
+    right: 0;
+    bottom: 1em;
+    height: 210px;
+  }
+  :is(.slider .thumb-nav ul li) {
+    height: 60px !important;
+  }
+  .slider .thumb-nav .item h4 {
+    display: block;
+  }
+}

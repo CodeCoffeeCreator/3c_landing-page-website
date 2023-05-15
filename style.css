@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
-@import 'custom-animate.css';
 @import 'header.css';
+@import 'hero.css';
 
 @import 'footer.css';
+@import 'custom-animate.css';
 @import 'media.css';
 
 :root {
@@ -41,7 +42,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
-  /* -webkit-tap-highlight-color: transparent; */
+  -webkit-tap-highlight-color: transparent;
 }
 
 img {
@@ -61,19 +62,22 @@ h1,
 h2,
 h3,
 h4 {
-  font-size: 300px;
+  font-weight: 300;
   line-height: normal;
 }
 
 h1 {
   font-size: 2.5em;
 }
+
 h2 {
   font-size: 2em;
 }
+
 h3 {
   font-size: 1.5em;
 }
+
 h4 {
   font-size: 1em;
 }
@@ -143,4 +147,9 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+main > div {
+  position: relative;
+  padding: 3em 0;
 }
