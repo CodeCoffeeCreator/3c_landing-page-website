@@ -120,11 +120,11 @@ h4 {
 }
 
 .bg-primary {
-  background-image: url(img/bg-primary.svg);
+  background-image: url(../img/bg-primary.svg);
 }
 
 .bg-dark {
-  background-image: url(img/bg-dark.svg);
+  background-image: url(../img/bg-dark.svg);
 }
 
 .has-bg {
